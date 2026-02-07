@@ -1,0 +1,5 @@
+useDynLib(PeakSegOptimal)
+exportPattern("^[[:alpha:]]")
+importFrom("stats", "quantile", "sd")
+import(penaltyLearning)
+export(PeakSegFPOPLogUnconstrained)
